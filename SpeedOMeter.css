@@ -1,0 +1,377 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+.speedometer-container
+{
+	width: 300px;
+	height: 300px;
+	border: 3px solid black;
+	border-radius: 50%;
+	margin: 20px auto;
+	position: relative;
+}
+
+.center-point
+{
+	height: 20px;
+	width: 20px;
+	background-color: black;
+	border-radius: 50%;
+	position: absolute;
+	top: 137px;
+	left: 137px;
+	z-index: 1;
+}
+
+.speedometer-scale
+{
+	height: 10px;
+	width: 280px;
+	background-color: black;
+	position: absolute;
+	top: 142px;
+	left: 8px;
+}
+
+.speedometer-scale-0
+{
+	transform: rotate(0deg);
+	width: 200px;
+}
+.speedometer-scale-1
+{
+	transform: rotate(10deg);
+}
+.speedometer-scale-2
+{
+	transform: rotate(20deg);
+}
+.speedometer-scale-3
+{
+	transform: rotate(30deg);
+}
+.speedometer-scale-4
+{
+	transform: rotate(40deg);
+}
+.speedometer-scale-5
+{
+	transform: rotate(50deg);
+}
+.speedometer-scale-6
+{
+	transform: rotate(60deg);
+}
+.speedometer-scale-7
+{
+	transform: rotate(70deg);
+}
+.speedometer-scale-8
+{
+	transform: rotate(80deg);
+}
+.speedometer-scale-9
+{
+	transform: rotate(90deg);
+}
+.speedometer-scale-10
+{
+	transform: rotate(100deg);
+}
+.speedometer-scale-11
+{
+	transform: rotate(110deg);
+}
+.speedometer-scale-12
+{
+	transform: rotate(120deg);
+}
+.speedometer-scale-13
+{
+	transform: rotate(130deg);
+}
+.speedometer-scale-14
+{
+	transform: rotate(140deg);
+}
+.speedometer-scale-15
+{
+	transform: rotate(150deg);
+}
+.speedometer-scale-16
+{
+	transform: rotate(160deg);
+}
+.speedometer-scale-17
+{
+	transform: rotate(170deg);
+}
+.speedometer-scale-18
+{
+	transform: rotate(180deg);
+	    top: 142px;
+    left: 33px;
+    width: 255px;
+}
+
+.center-point-hide
+{
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+	background-color: white;
+	position: relative;
+	left: 22px;
+	top: 22px;
+
+
+}
+
+.speedometer-bottom-hide
+{
+	height: 160px;
+	width: 300px;
+	background-color: white;
+	position: absolute;
+	top: 157px;
+	left: -3px;
+	border-top: 3px solid black;
+}
+
+.arrow-container
+{
+	height: 150px;
+	width: 150px;
+	background-color: transparent;
+	position: absolute;
+	top: 72px;
+	left: 72px;
+}
+
+.arrow-wrapper
+{
+	height: 150px;
+	width: 150px;
+	background-color: transparent;
+	position: relative;
+}
+
+.arrow {
+    height: 10px;
+    width: 133px;
+    background-color: #673ab7;
+    position: absolute;
+    top: 69px;
+    left: -42px;
+}
+.speed-0
+{
+	transform: rotate(0deg);
+}
+.speed-10
+{
+	transform: rotate(10deg);
+}
+.speed-20
+{
+	transform: rotate(20deg);
+}
+.speed-30
+{
+	transform: rotate(30deg);
+}
+.speed-40
+{
+	transform: rotate(40deg);
+}
+.speed-50
+{
+	transform: rotate(50deg);
+}
+.speed-60
+{
+	transform: rotate(60deg);
+}
+.speed-70
+{
+	transform: rotate(70deg);
+}
+.speed-80
+{
+	transform: rotate(80deg);
+}
+.speed-90
+{
+	transform: rotate(90deg);
+}
+.speed-100
+{
+	transform: rotate(100deg);
+}
+.speed-110
+{
+	transform: rotate(110deg);
+}
+.speed-120
+{
+	transform: rotate(120deg);
+}
+.speed-130
+{
+	transform: rotate(130deg);
+}
+.speed-140
+{
+	transform: rotate(140deg);
+}
+.speed-150
+{
+	transform: rotate(150deg);
+}
+.speed-160
+{
+	transform: rotate(160deg);
+}
+.speed-170
+{
+	transform: rotate(170deg);
+}
+.speed-180
+{
+	transform: rotate(180deg);
+}
+
+.accelerator-control
+{
+	text-align: center;
+}
+
+.accelerator-control button
+{
+	height: 30px;
+	width: 200px;
+	border: none;
+	border-radius: 5px;
+	font-weight: bold;
+	margin-top: 50px;
+	cursor: pointer;
+	box-shadow: 5px 5px 5px #c6c6c6;
+}
+
+.accelerator-control button:active
+{
+	box-shadow: 5px 5px 5px black;
+}
+
+.increase
+{
+	background-color: green;
+}
+.decrease
+{
+	background-color: red;
+}
+
+.speedometer-scale-0.active
+{
+	background-color: rgb(4, 102, 4);
+}
+.speedometer-scale-1.active
+{
+	background-color: rgb(8, 109, 8);
+}
+.speedometer-scale-2.active
+{
+	background-color: rgb(0, 120, 0);
+}
+.speedometer-scale-3.active
+{
+	background-color: rgb(0, 160, 0);
+}
+.speedometer-scale-4.active
+{
+	background-color: rgb(0, 180, 0);
+}
+.speedometer-scale-5.active
+{
+	background-color: rgb(0, 220, 0);
+}
+.speedometer-scale-6.active
+{
+	background-color: rgb(0, 255, 0);
+}
+.speedometer-scale-7.active
+{
+	background-color: rgb(170, 233, 24);
+}
+.speedometer-scale-8.active
+{
+	background-color: rgb(195, 214, 18);
+}
+.speedometer-scale-9.active
+{
+	background-color: rgb(252, 79, 79);
+}
+.speedometer-scale-10.active
+{
+	background-color: rgb(235, 36, 36);
+}
+.speedometer-scale-11.active
+{
+	background-color: rgb(247, 22, 22);
+}
+.speedometer-scale-12.active
+{
+	background-color: rgb(216, 27, 27);
+}
+.speedometer-scale-13.active
+{
+	background-color: rgb(187, 14, 14);
+}
+.speedometer-scale-14.active
+{
+	background-color: rgb(187, 27, 27);
+}
+.speedometer-scale-15.active
+{
+	background-color: rgb(209, 20, 20);
+}
+.speedometer-scale-16.active
+{
+	background-color: rgb(185, 43, 43);
+}
+.speedometer-scale-17.active
+{
+	background-color: rgb(158, 12, 12);
+}
+.speedometer-scale-18.active
+{
+	background-color: rgb(95, 4, 4);
+}
+
+.speedometer-text
+{
+	
+	width: 200px;
+    position: absolute;
+    z-index: 3;
+    left: 46px;
+    top: 59px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.km
+{
+	font-size: 30px;
+    margin: 6px;
+}
+.static
+{
+	font-size: 20px;
+}
